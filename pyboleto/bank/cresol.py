@@ -2,6 +2,11 @@
 from pyboleto.data import BoletoData, custom_property
 
 
+# Referencias: 
+# - BoletoBradesco
+# - https://pt.scribd.com/document/612682075/especificacoes-tecnicas
+# - https://s3.amazonaws.com/site321-prod/documents/files/1b8a6952d02d7aa03ebf389b5599ee38d72955a8/original.pdf?1539624253
+
 class BoletoCresol(BoletoData):
     '''
         Gera Dados necessários para criação de boleto para o Banco Cresol
